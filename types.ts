@@ -33,6 +33,7 @@ export interface Price {
 }
 
 export interface Subscription {
+  [x: string]: any;
   id: string;
   user_id: string;
   status?: Stripe.Subscription.Status;
